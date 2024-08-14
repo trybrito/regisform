@@ -63,3 +63,9 @@ select {
   font: inherit;
   color: inherit;
 }
+
+body {
+  font: var(--text-default);
+  color: var(--text-secondary);
+  background-color: var(--surface-primary);
+}
