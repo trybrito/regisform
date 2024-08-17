@@ -29,12 +29,10 @@
 
   /* --- FONTS --- */
   --primary-font-family: "Poppins", sans-serif;
-  --secondary-font-family: "Schoolbell", var(--primary-font-family), sans-serif;
   --heading1: 600 4rem/125% var(--primary-font-family);
   --heading2: 600 2.4rem/125% var(--primary-font-family);
   --text-default: 400 1.6rem/150% var(--primary-font-family);
   --text-sm: 400 1.4rem/140% var(--primary-font-family);
-  --text-secondary: 400 2rem/100% var(--secondary-font-family);
 }
 
 * {
@@ -68,4 +66,13 @@ body {
   font: var(--text-default);
   color: var(--text-secondary);
   background-color: var(--surface-primary);
+}
+
+h1,
+h2 {
+  color: var(--text-primary);
+}
+
+img {
+  max-width: 100%;
 }

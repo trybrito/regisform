@@ -14,6 +14,18 @@
     & .form-container {
       max-width: 52.8rem;
       margin-left: auto;
+
+      & h2 {
+        margin-bottom: 0.8rem;
+        font: var(--heading2);
+      }
+    }
+
+    & .go-back {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin-bottom: 2.4rem;
     }
   }
 
@@ -23,6 +35,25 @@
 
     & .aside-container {
       max-width: 49.6rem;
+    }
+
+    & header {
+      margin-bottom: 3.2rem;
+
+      & img {
+        width: 20rem;
+        height: 3rem;
+        margin-bottom: 0.8rem;
+      }
+
+      & h2 {
+        font: var(--heading1);
+        margin-bottom: 0.8rem;
+
+        & span {
+          color: var(--text-highlight);
+        }
+      }
     }
   }
 }
