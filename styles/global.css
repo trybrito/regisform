@@ -28,11 +28,11 @@
   --pink: #f682a5;
 
   /* --- FONTS --- */
-  --primary-font-family: "Poppins", sans-serif;
-  --heading1: 600 4rem/125% var(--primary-font-family);
-  --heading2: 600 2.4rem/125% var(--primary-font-family);
-  --text-default: 400 1.6rem/150% var(--primary-font-family);
-  --text-sm: 400 1.4rem/140% var(--primary-font-family);
+  --font-family: "Poppins", sans-serif;
+  --heading1: 600 4rem/125% var(--font-family);
+  --heading2: 600 2.4rem/125% var(--font-family);
+  --text-default: 400 1.6rem/150% var(--font-family);
+  --text-sm: 400 1.4rem/140% var(--font-family);
 }
 
 * {

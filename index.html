@@ -31,6 +31,66 @@
             Preencha os dados abaixo para matricular seu filho na escola de
             educação infantil Estrelas do Amanhã.
           </p>
+
+          <form action="#" method="POST" enctype="multipart/form-data">
+            <fieldset class="child-info">
+              <legend>Informações da criança</legend>
+
+              <div class="input-wrapper">
+                <label for="full-name">Nome completo</label>
+                <input
+                  name="full-name"
+                  id="full-name"
+                  type="text"
+                  placeholder="Qual o nome da criança?"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="birth-date">Data de nascimento</label>
+                <input
+                  name="birth-date"
+                  id="birth-date"
+                  type="date"
+                  lang="pt-BR"
+                />
+              </div>
+
+              <div class="select-wrapper">
+                <label for="gender">Sexo</label
+                ><select name="gender" id="gender">
+                  <option value="male">Masculino</option>
+                  <option value="female">Feminino</option>
+                  <option value="uninformed">Prefiro não informar</option>
+                </select>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="medical-info">Informações médicas</label>
+                <textarea
+                  name="medical-info"
+                  id="medical-info"
+                  type="textarea"
+                  cols="30"
+                  rows="6"
+                  placeholder="A criança possui alguma condição médica que a escola necessite estar ciente? (Se sim, especifique)"
+                ></textarea>
+              </div>
+
+              <div class="droparea-wrapper">
+                <label for="birth-document"></label
+                ><input name="birth-document" id="birth-document" type="file" />
+                <img
+                  src="./assets/icons/cloud-upload.svg"
+                  alt="Ilustração. Nuvem com uma seta apontada para cima no meio, significando upload de arquivos/dados para a &#34;nuvem&#34;"
+                />
+                <p>
+                  Clique aqui para <br />
+                  selecionar os arquivos
+                </p>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </main>
       <aside>
