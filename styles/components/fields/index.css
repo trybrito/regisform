@@ -52,3 +52,44 @@ select {
   background: url(../../../assets/icons/arrow-down-01.svg) no-repeat
     calc(100% - 1.6rem);
 }
+
+.address .flex {
+  gap: 2rem;
+}
+
+.input-wrapper:has([disabled]) {
+  opacity: 50%;
+}
+
+input {
+  &[disabled] {
+    background-color: var(--surface-disabled);
+    color: var(--text-primary);
+  }
+
+  &:invalid {
+    border: 0.2rem solid var(--semantic-error);
+  }
+
+  & + small {
+    font: var(--text-sm);
+    color: #78716c;
+
+    display: inline-block;
+    margin-top: 0.4rem;
+  }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    font: var(--text-sm);
+    color: var(--semantic-error);
+    margin-top: 0.4rem;
+  }
+
+  &:not(:focus):valid + .error {
+    display: none;
+  }
+}

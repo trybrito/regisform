@@ -11,6 +11,11 @@ fieldset {
   gap: 2.4rem;
 }
 
+fieldset + fieldset {
+  margin-top: 4.8rem;
+}
+
 legend {
   font: 600 1.6rem/1.25 var(--font-family);
+  margin-bottom: 2.4rem;
 }
