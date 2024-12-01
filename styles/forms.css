@@ -19,3 +19,10 @@ legend {
   font: 600 1.6rem/1.25 var(--font-family);
   margin-bottom: 2.4rem;
 }
+
+.actions-wrapper {
+  margin-top: 6.4rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+}
